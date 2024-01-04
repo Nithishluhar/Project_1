@@ -16,7 +16,7 @@ const MoviesList = ({ genreId, index }) => {
   }, []);
   const getMovieByGenreId = () => {
     GlobalApi.getMovieByGenreId(genreId).then((res) => {
-      console.log(res.data.results);
+      // console.log(res.data.results);
       setMovieList(res.data.results);
     });
   };
