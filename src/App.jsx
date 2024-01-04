@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import GenreMovieList from "./Components/GenreMovieList";
 import Header from "./Components/Header";
 import ProdectionHoues from "./Components/ProdectionHoues";
